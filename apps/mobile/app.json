@@ -5,11 +5,10 @@
     "version": "1.0.0",
     "platforms": ["ios"],
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "vienna",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "icon": "./assets/vienna.icon",
       "supportsTablet": false,
       "bundleIdentifier": "com.h3l1o5.vienna"
     },
@@ -18,9 +17,13 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#faf9f6",
+          "image": "./assets/images/splash-icon-light.png",
+          "imageWidth": 120,
+          "dark": {
+            "backgroundColor": "#161514",
+            "image": "./assets/images/splash-icon-dark.png"
+          }
         }
       ]
     ],
